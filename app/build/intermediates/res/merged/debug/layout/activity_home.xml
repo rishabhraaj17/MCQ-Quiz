@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1b5bc"
+    tools:context="com.example.rish.project.Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/w"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_toRightOf="@+id/w"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/displayName"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t"
+        android:textSize="18dp"
+        android:text="                         Quizzes Available"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage1"
+        android:layout_below="@+id/t"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage2"
+        android:layout_below="@+id/quizPage1"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage3"
+        android:layout_below="@+id/quizPage2"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage4"
+        android:layout_below="@+id/quizPage3"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage5"
+        android:layout_below="@+id/quizPage4"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizPage6"
+        android:layout_below="@+id/quizPage5"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Quiz 6"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@android:color/holo_red_dark"
+        android:text="Logout"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp" />
+
+</RelativeLayout>

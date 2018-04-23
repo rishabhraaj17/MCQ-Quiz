@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rish.project.QuizPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/timer"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/timerVal"
+        android:textAlignment="center"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/quesArea"
+        android:layout_below="@+id/timer"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textIsSelectable="false" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OptionGroup"
+        android:layout_below="@+id/quesArea"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/A_Opt"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/B_Opt"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/C_Opt"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/D_Opt"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OptionGroup"
+        android:layout_marginTop="30dp"
+        android:text="Previous"
+        android:id="@+id/QPrevious"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OptionGroup"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/QPrevious"
+        android:text="Submit"
+        android:id="@+id/QSubmit"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OptionGroup"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/QSubmit"
+        android:text="Next"
+        android:id="@+id/QNext"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/QSubmit"
+        android:layout_marginTop="30dp"
+        android:text="End Test"
+        android:id="@+id/QEnd"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

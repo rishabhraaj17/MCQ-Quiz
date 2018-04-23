@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_login_tab.xml",
+        "source": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\src\\main\\res\\menu\\menu_login_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_register_tab.xml",
+        "source": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\src\\main\\res\\menu\\menu_register_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\quiz_options.xml",
+        "source": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\src\\main\\res\\menu\\quiz_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main2.xml",
+        "source": "C:\\Users\\risha\\AndroidStudioProjects\\Project\\app\\src\\main\\res\\menu\\menu_main2.xml"
+    }
+]

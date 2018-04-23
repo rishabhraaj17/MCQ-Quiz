@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\risha\AndroidStudioProjects\Project\app\libs\json-smart-1.0.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e69f5b7ebab1c0a40af6ff093831cb84357889c">
+        <dex dex="C:\Users\risha\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\json-smart-1.0.8_3592e213e34716f44a749cd31bdc22e866dcbb4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\risha\AndroidStudioProjects\Project\app\libs\json-simple.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03739029dad351f8b8e4a885cecb6fc67a7e4329">
+        <dex dex="C:\Users\risha\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\json-simple_6d5fde21450d19a88bb0a776fbb161e7648a1864.jar" />
+    </item>
+
+</items>

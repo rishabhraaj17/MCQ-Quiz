@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.login_tab0">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username0"
+        android:layout_marginTop="30dp"
+        android:hint="Username"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password0"
+        android:layout_below="@+id/username0"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn0"
+        android:layout_below="@+id/password0"
+        android:layout_centerHorizontal="true"
+        android:text="Log in"
+        android:layout_marginTop="120dp"/>
+
+</RelativeLayout>
